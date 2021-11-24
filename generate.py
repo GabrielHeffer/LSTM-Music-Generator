@@ -109,9 +109,9 @@ def create_network(network_input_notes, n_vocab_notes, network_input_offsets, n_
     model.compile(loss='categorical_crossentropy', optimizer='adam')
 
     # Carregar os pesos para cada nó
-    #model.load_weights(r'weights-improvement-197-0.1244-bigger.hdf5')
+    model.load_weights(r'weights-improvement-197-0.1244-bigger.hdf5')
 
-    tf.keras.utils.plot_model(model, to_file='model.png')
+    # tf.keras.utils.plot_model(model, to_file='model.png')
 
     return model
 

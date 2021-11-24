@@ -191,7 +191,7 @@ def train(model, network_input_notes, network_input_offsets, network_input_durat
 
 
 if __name__ == "__main__":
-    notes, offsets, duration = get_notes(r"C:\Users\heffe\Desktop\TCC\test_1\midi_zelda")
+    notes, offsets, duration = get_notes(r"C:\Users\heffe\Desktop\LSTM\LSTM-Music-Generator\midi_zelda")
 
     #notes, offsets, duration = get_notes_from_pickle(r"C:\Users\heffe\Desktop\RNN\Classical-Piano-Composer\data\notes")
 
